@@ -478,4 +478,4 @@ if uploaded_file is not None:
                                     if chart_style == "Bar":
                                         fig = px.bar(grp, x=dim, y=metric, color=dim, color_discrete_sequence=colors)
                                     elif chart_style == "Line":
-                                        fig = px.line(grp, x=dim, y=metric, markers=True
+                                        fig = px.line(grp, x=dim, y=metric, markers=True, color_discrete_sequence=colors)
